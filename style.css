@@ -14,3 +14,58 @@ header img{
     padding:10px;
     text-shadow: 0 0 5px rgb(34 117 76);
 }
+/*section1*/
+.paragraphe-text{
+    text-align: justify;
+    line-height:2;
+    padding:0 30px 30px 30px;
+    border-radius: 3px;
+}
+#carousel-produits .carousel-inner{
+    object-fit: cover; 
+}
+.caption-produits{
+    position: absolute;
+    bottom: auto;
+    top:11%;
+    text-shadow: 0px 0px 5px black;
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 1px;
+}
+/* class perso*/
+.color-white{
+    color:white;
+}
+.color-black{
+   color:var(--bs-body-color);
+}
+.border-black{
+    border: 2px solid black;
+}
+.text-justify{
+    text-align: justify;
+}
+.padding15{
+    padding: 15px;
+}
+.padding20{
+    padding: 20px;
+}
+.margin-p{
+    margin-top:30px;
+}
+.border-radius{
+    border-radius:5px;
+}
+.inline-block{
+    display: inline-block;
+}
+.padding10{
+    padding: 10px;
+}
+.padding5{
+    padding: 5px;
+}
+.btn-perso{
+    color:rgb(34 117 76);
+}
