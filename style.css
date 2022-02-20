@@ -69,3 +69,28 @@ header img{
 .btn-perso{
     color:rgb(34 117 76);
 }
+/*responsive media query perso*/
+/* carousel-produits*/
+main section #carousel-produits .carousel-inner{
+    max-height: 178px;
+}
+@media(min-width:500px){
+    main section #carousel-produits .carousel-inner{
+        max-height:240px;
+    }
+}
+@media(min-width:613px){
+    main section #carousel-produits .carousel-inner{
+        max-height:270px;
+    }
+}
+@media(min-width:841px){
+    main section #carousel-produits .carousel-inner{
+        max-height:300px;
+    }
+}
+@media(min-width:948px){
+    main section #carousel-produits .carousel-inner{
+        max-height:330px;
+    }
+}
