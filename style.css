@@ -127,6 +127,37 @@ main section #carousel-produits .carousel-inner{
         max-height:330px;
     }
 }
+/* carousel-clients*/
+main section #carousel-clients .carousel-inner{
+    max-height: 200px;
+}
+main section #carousel-clients .carousel-control-prev, main section #carousel-clients .carousel-control-next {
+    top:0;
+}
+@media(min-width:642px){
+    main section #carousel-clients .carousel-inner{
+        max-height: 211px;
+    }
+}    
+@media(min-width:696px){
+    main section #carousel-clients .carousel-inner{
+        max-height: 187px;
+    }
+}    
+@media(min-width:768px){
+    main section #carousel-clients .carousel-inner{
+        max-height: 227px;
+    }
+}    
+    main section #carousel-clients .carousel-caption{
+        padding-top: 0em;
+    }
+}    
+@media(min-width:1739px){
+    main section #carousel-clients .carousel-inner{
+        max-height: 200px;
+    }
+}
 /*section 2 #offcanvas-global*/
 @media(max-width:430px){
     main section #offcanvas-global{
