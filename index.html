@@ -286,7 +286,45 @@
                 <img class="photo-ferme border-radius w-100"src="./images/Fruits R/ferme1.jpg" alt="photo de notre ferme">   
             </div>  
         </section>
-        <!--fin section4-->   
+        <!--fin section4-->  
+          <!--section5-->  
+        <section class="row mx-0 justify-content-center margin-p">
+            <iframe class="col-10 col-md-4 border-radius" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44181.236826423075!2d5.218243400138148!3d46.203943628774056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f3522d15689311%3A0xc2e1d69735f38afb!2s01000%20Bourg-en-Bresse!5e0!3m2!1sfr!2sfr!4v1643138693807!5m2!1sfr!2sfr" class="col-12 col-md-6" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <!-- formulaire -->
+            <div class="col-10 offset-md-1 col-md-5 border-radius margin-p" id="titre-formulaire">
+                <h2 id="contacts" class="padding-titre color-black text-center">Contactez-nous</h2>
+                <p class="text-center padding20">Si vous avez des questions, des interrogations sur notre société, n'hésitez pas à nous contacter!</p>
+                <hr class="separation">
+                <form method="post" action="" autocomplete="on" novalidate class="taille-formulaire">
+                    <div class="row mx-0">
+                        <div class="col-10 col-lg-6 d-flex flex-column">
+                            <label for="prenom">Votre prénom:</label>
+                            <input type="text" id="prenom" name="prenom" placeholder="Saisir votre prénom" size="20" maxlength="30">
+                            <label for="nom">Votre nom:</label>
+                            <input type="text" id="nom" name="nom" placeholder="Saisir votre nom" size="20" maxlength="30">
+                            <label for="email">Votre email:</label>
+                            <input type="email" id="email" name="email" placeholder="Saisir votre adresse mail" size="20" maxlength="40">
+                            <label for="tel"> Votre téléphone:</label>
+                            <input type="tel" id="tel" name="tel" placeholder="Saisir votre numéro" size="30" maxlength="10">
+                        </div>
+                        <div class="col-10 col-lg-6 ">
+                            <label for="sujet">Votre sujet:</label>
+                            <select name="sujet" id="sujet">
+                                <option value=""disabled selected hidden>Sélectionner un sujet</option>
+                                <option value="ressources humaines">Ressources humaines</option>
+                                <option value="secteur fruits">Service fruits</option>
+                                <option value="secteur legumes">Service légumes</option>
+                                <option value="autres">Autres demandes</option>
+                            </select>
+                            <label for="message">Votre message:</label> 
+                            <textarea id="message" name="message" placeholder="Saisissez votre message" rows="6" cols="50"></textarea> 
+                        </div>
+                        <button class="btn mt-3 btn-succes border-black color-black" type="submit">Envoyer mon message</button>   
+                    </div>              
+                </form>    
+            </div>    
+        </section>
+        <!--fin section5-->
     </main>
 </body>
 </html>    
