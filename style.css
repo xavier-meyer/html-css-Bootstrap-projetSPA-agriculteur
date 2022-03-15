@@ -56,7 +56,6 @@ main section #offcanvasfruits, #offcanvaslegumes{
 }
 /*section4*/
 main section img.photo-ferme{
-    height:70%;
     object-fit: cover;
 }
 /*carousel-clients ds section4*/
@@ -204,7 +203,7 @@ main section #carousel-clients .carousel-control-prev, main section #carousel-cl
     main section #carousel-clients .carousel-inner{
         max-height: 227px;
     }
-}    
+    
     main section #carousel-clients .carousel-caption{
         padding-top: 0em;
     }
@@ -214,9 +213,32 @@ main section #carousel-clients .carousel-control-prev, main section #carousel-cl
         max-height: 200px;
     }
 }
+/*section 2 offcanvas .offcanvas-start*/
+@media(max-width:767px){
+    main section .offcanvas-start{
+        width: 100%;
+    }
+}
 /*section 2 #offcanvas-global*/
 @media(max-width:430px){
     main section #offcanvas-global{
         margin-top:15px;
     }
+}
+/*bouton back to top*/
+.btn-arrow{
+    height: 80px;
+    width: 80px;
+    background: green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right : 20px;
+    bottom : 20px;
+    cursor: pointer;
+}
+.icone{
+    width: 50px;
 }
