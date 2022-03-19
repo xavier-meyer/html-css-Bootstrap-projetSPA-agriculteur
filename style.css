@@ -226,19 +226,21 @@ main section #carousel-clients .carousel-control-prev, main section #carousel-cl
     }
 }
 /*bouton back to top*/
-.btn-arrow{
-    height: 80px;
-    width: 80px;
-    background: green;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#btn-return{
+    display: none;
     position: fixed;
-    right : 20px;
-    bottom : 20px;
+    bottom: 30px;
+    right: 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(82, 151, 41);
+    color: white;
     cursor: pointer;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 10px;
 }
-.icone{
-    width: 50px;
+
+#btn-return:hover{
+    background-color: #555;
 }
